@@ -1,0 +1,16 @@
+{
+    "name": "mohamed/converter",
+    "version": "1.0.0",
+    "description": "sum tow numbers",
+    "autoload": {
+        "psr-4": {
+        "App\\": "src/"
+        }
+    },
+    "scripts": {
+        "sum": "php bin/sum.php"
+    },
+    "require": {
+        "php": ">=8.2"
+    }
+}
